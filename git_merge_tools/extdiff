@@ -1,0 +1,2 @@
+#!/bin/sh
+[ $# -eq 7 ] && ~/Applications/bin/extmerge "$2" "$5"

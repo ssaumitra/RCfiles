@@ -1,0 +1,20 @@
+# local user config, usernames, etc
+[include]
+    path = ~/.gitconfig.local
+[merge]
+    tool = vimdiff
+[diff]
+    tool = vimdiff
+[push]
+  default = matching
+[merge]
+  tool = extmerge
+[mergetool "extmerge"]
+  cmd = ~/.rcfiles/git_merge_tools/extmerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  trustExitCode = false
+[diff]
+  external = ~/.rcfiles/git_merge_tools/extdiff
+[push]
+  default = matching
+[core]
+  excludesfile = ~/.gitignore_global
