@@ -3,3 +3,4 @@
 MYDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ln -s $MYDIR/vimrc ~/.vimrc
 ln -s $MYDIR/gitconfig ~/.gitconfig
+ln -s $MYDIR/tmux.conf ~/.tmux.conf
