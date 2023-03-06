@@ -1,2 +1,2 @@
 #!/bin/sh
-[ $# -eq 7 ] && ~/Applications/bin/extmerge "$2" "$5"
+[ $# -eq 7 ] && ~/.rcfiles/git_merge_tools/extmerge "$2" "$5"
